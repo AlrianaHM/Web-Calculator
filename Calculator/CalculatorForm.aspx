@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CalculatorForm.aspx.cs" Inherits="Calculator.CalculatorForm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
-    <asp:Panel ID="Panel1" runat="server" Height="232px" style="padding-left: 5px;padding-top: 5px;padding-right: 5px;padding-bottom: 5px" Width="300px" Wrap="False" BorderStyle="Solid">
+    <asp:Panel ID="Panel1" runat="server" Height="232px" style="padding-left: 5px;padding-top: 5px;padding-right: 5px;padding-bottom: 5px" Width="300px" Wrap="False" BorderStyle="Solid" BackColor="#CCCCCC">
         <br />
         <asp:TextBox ID="ShowBox" runat="server" BorderStyle="Solid" Height="30px" Width="300px"></asp:TextBox>
         <br />
