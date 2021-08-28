@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -64,7 +65,7 @@ namespace Calculator {
         }
 
         protected void MultiplyButton_Click(object sender, EventArgs e) {
-            ShowBox.Text += 'x';
+            ShowBox.Text += '*';
         }
 
         protected void DivButton_Click(object sender, EventArgs e) {
@@ -79,6 +80,12 @@ namespace Calculator {
 
         protected void ClearButton_Click(object sender, EventArgs e) {
             ShowBox.Text = "";
+        }
+
+        protected void ResultButton_Click(object sender, EventArgs e)
+        {
+            CalculatorController controller = new CalculatorController();
+            ShowBox.Text = controller.GetResult(ShowBox.Text);
         }
     }
 }
