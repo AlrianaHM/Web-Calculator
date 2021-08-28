@@ -21,7 +21,7 @@
         <asp:Button ID="Button1" runat="server" Text="1" Width="50px" OnClick="Button1_Click" />
         &nbsp;<asp:Button ID="Button2" runat="server" Text="2" Width="50px" OnClick="Button2_Click" />
         &nbsp;<asp:Button ID="Button3" runat="server" Text="3" Width="50px" OnClick="Button3_Click" />
-        &nbsp;<asp:Button ID="MultiplyButton" runat="server" Text="x" Width="50px" OnClick="MultiplyButton_Click" />
+        &nbsp;<asp:Button ID="MultiplyButton" runat="server" Text="*" Width="50px" OnClick="MultiplyButton_Click" />
         <br />
         <asp:Button ID="Button0" runat="server" Text="0" Width="50px" OnClick="Button0_Click" />
         &nbsp;<asp:Button ID="ComaButton" runat="server" Text="." Width="50px" OnClick="ComaButton_Click" />

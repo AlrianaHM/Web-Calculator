@@ -65,7 +65,7 @@ namespace Calculator {
         }
 
         protected void MultiplyButton_Click(object sender, EventArgs e) {
-            ShowBox.Text += 'x';
+            ShowBox.Text += '*';
         }
 
         protected void DivButton_Click(object sender, EventArgs e) {
