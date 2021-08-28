@@ -25,7 +25,7 @@
         <br />
         <asp:Button ID="Button0" runat="server" Text="0" Width="50px" OnClick="Button0_Click" />
         &nbsp;<asp:Button ID="ComaButton" runat="server" Text="." Width="50px" OnClick="ComaButton_Click" />
-        &nbsp;<asp:Button ID="ResultButton" runat="server" Text="=" Width="50px" />
+        &nbsp;<asp:Button ID="ResultButton" runat="server" Text="=" Width="50px" OnClick="ResultButton_Click"/>
         &nbsp;<asp:Button ID="DivButton" runat="server" Text="/" Width="50px" OnClick="DivButton_Click" />
     </asp:Panel>
 </asp:Content>
